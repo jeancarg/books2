@@ -1,0 +1,89 @@
+:root{
+    --corPrimaria: #F5B947;
+    --corPrimariaClara: #FFC963;
+    --corPrimariaEscura: #A87920;
+    --corSecundariaClara: #4793F5;
+    --corSecundariaEscura: #0F53A8;
+    --corNeutraClara: #F5F5F5;
+    --corNeutraEscura: #333344;
+
+    --tamanho: 16px;
+    --tamanhoPequeno: 8px;
+    --tamanhoGrande: 32px;
+}
+*{
+    color: var(--corNeutraClara);
+}
+
+body{
+    background-color: var(--corPrimariaClara);
+}
+header{
+    overflow: auto;
+    margin-bottom: var(--tamanhoGrande);
+    background-color: var(--corPrimaria);
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 0.6em;
+}
+aside{
+    background-color: var(--corPrimariaEscura);
+    float: right;
+    margin: var(--tamanhoPequeno);
+    border-radius: var(--tamanhoGrande);
+    padding: var(--tamanho);
+}
+aside input[text]{
+    width: 250px;
+}
+main .form-group{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: var(--tamanhoGrande) !important;
+}
+
+#txtLivro{
+    width: 500px;
+    margin-right: var(--tamanhoGrande);
+}
+
+article{
+    display: flex;
+    background-color: var(--corSecundariaClara);
+    border-radius: var(--tamanhoPequeno);
+    padding: var(--tamanho);
+    width: 960px;
+    margin:auto;
+    margin-bottom: var(--tamanhoPequeno) !important;
+}
+
+article img{
+    width: 130px;
+    margin-right: var(--tamanho);
+}
+article h3{
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.detalhes{
+    width: 80%;
+}
+.material-icons{
+    font-size: 48px;
+}
+.marcadores{
+    position: relative;
+    
+}
+.contador{
+    font-size: 16px;
+    position: absolute;
+    top: 1.2em;
+    left: 2em;
+    background-color: var(--corSecundariaEscura);
+    
+}
