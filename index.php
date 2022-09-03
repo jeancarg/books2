@@ -73,7 +73,7 @@
            }
            $dados = Conexao::getdata();
 
-           foreach($dadosas $livro):
+           foreach($dados as $livro):
 
             ?>
            <article>
